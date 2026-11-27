@@ -1,3 +1,4 @@
+```markdown
 <div align="center">
 
 # 🎄 Christmas Tree Animation
@@ -34,3 +35,55 @@
    ```bash
    git clone [https://github.com/DrayeCare/christmas_tree.git](https://github.com/DrayeCare/christmas_tree.git)
    cd christmas_tree
+
+```
+
+2. **Run the animation:**
+```bash
+python christmas.py
+
+```
+
+
+
+---
+
+## 🛠️ Customization
+
+You can easily tweak the visual parameters at the top of `christmas.py`:
+
+| Constant | Default | Description |
+| --- | --- | --- |
+| `WIDTH` / `HEIGHT` | `700` / `750` | Canvas window dimensions in pixels |
+| `FPS_DELAY` | `30` | Frame refresh interval in milliseconds (~33 FPS) |
+| `NUM_LIGHTS` | `115` | Total number of bulbs along the spiral |
+| `LYRICS` | `List[str]` | Custom text lines displayed at the bottom |
+| `LYRIC_DURATION` | `115` | Display duration per lyric line (in frames) |
+
+---
+
+## 📁 Project Structure
+
+```text
+christmas_tree/
+├── christmas.py   # Main procedural rendering & animation loop
+├── .gitignore     # Excludes local virtual environments and IDE configs
+└── README.md      # Project documentation
+
+```
+
+```
+
+---
+
+### Cara Pasang ke Repo Lu:
+1. Buat file baru bernama `README.md` di folder `D:\WorkOfficeKoko\Python\christmas` lalu paste isi di atas.
+2. Push ke GitHub lewat terminal VS Code:
+   ```powershell
+   git add README.md
+   git commit -m "docs: add README.md"
+   git push
+
+```
+
+*(Kalau sebelumnya lu sempat pakai Opsi 1 `git pull` dan ada `README.md` bawaan GitHub, langsung timpa saja isinya dengan teks di atas lalu jalankan 3 perintah tersebut).*
